@@ -5,8 +5,7 @@ h1 {
     color: black;
     text-align: center;
 }
-p {
-    text-align: center;
+.openingparagraph{
     color:black;
     background-color:white;
     font-size: 20px;
@@ -54,6 +53,28 @@ body {
 table {
     background: transparent;
 }
-div {
-    color:aqua;
+.openingparagraph {
+    font-size: 20px;
+}
+.jumpingpugdescription {
+    color:black;
+    background-color:white;
+    font-size: 20px;  
+    float:right;
+    position:absolute;
+    top:280px;
+    right: 10px;
+    left: 525px;
+}
+.starwarsdog {
+    position:absolute;
+    left:10px;
+    top:600px;
+    height:445px
+}
+.cuteometer1 {
+    color:black;
+    background-color:white;
+    font-size: 40px;
+    top: 600px;
 }
