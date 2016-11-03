@@ -59,7 +59,7 @@ table {
 .jumpingpugdescription {
     color:black;
     background-color:white;
-    font-size: 20px;  
+    font-size: 30px;  
     float:right;
     position:absolute;
     top:280px;
@@ -73,8 +73,13 @@ table {
     height:445px
 }
 .cuteometer1 {
-    color:black;
+    color:orange;
     background-color:white;
-    font-size: 40px;
-    top: 600px;
+    font-size: 35px;
+    position:absolute;
+    top: 480px;
+    left: 525px
+}
+.jumpingpuggroup {
+    position:absolute;
 }
