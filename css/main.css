@@ -6,9 +6,8 @@ h1 {
     text-align: center;
 }
 p {
-    text-align: center;
-    color:black;
     background-color:white;
+    color:black;
     font-size: 20px;
 }
 ul {
@@ -52,4 +51,20 @@ body {
 
 table {
     background: transparent;
+}
+.starwarsdog {
+    float: left;
+    position:absolute;
+    margin: 300px 10px
+    
+}
+.jumpingpugdescription {
+    margin: 0px 50px 60px 200px;
+    float:right;
+    position: absolute;
+    padding: 0px 0px;
+1}
+.jumpingpug {
+    
+    margin: 0px 10px;
 }
