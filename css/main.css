@@ -1,11 +1,16 @@
 h1 {
     font-family: fantasy;
     font-size: 60px;
-    background-color: orange;
+    background-color: green;
     color: black;
     text-align: center;
 }
+<<<<<<< HEAD
 p {
+=======
+.openingparagraph{
+    color:black;
+>>>>>>> origin/master
     background-color:white;
     color:black;
     font-size: 20px;
@@ -22,10 +27,11 @@ li {
 }
 
 li a {
+    font-size: 20px;
     display: block;
-    color: skyblue;
+    color: green;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 20px;
     text-decoration: none;
 }
 
@@ -34,10 +40,10 @@ a:hover:not(.active) {
 }
 
 .active {
-background-color:orange;
+background-color:skyblue;
 }
 html {
-    background: #505D6E url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/Purple-wallpaper-5.jpg") no-repeat center center fixed;
+    background: #505D6E url("http://www.designbolts.com/wp-content/uploads/2012/12/White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg") no-repeat center center fixed;
     min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -52,6 +58,7 @@ body {
 table {
     background: transparent;
 }
+<<<<<<< HEAD
 .starwarsdog {
     float: left;
     position:absolute;
@@ -67,4 +74,35 @@ table {
 .jumpingpug {
     
     margin: 0px 10px;
+=======
+.openingparagraph {
+    font-size: 20px;
+}
+.jumpingpugdescription {
+    color:black;
+    background-color:white;
+    font-size: 30px;  
+    float:right;
+    position:absolute;
+    top:280px;
+    right: 10px;
+    left: 525px;
+}
+.starwarsdog {
+    position:absolute;
+    left:10px;
+    top:600px;
+    height:445px
+}
+.cuteometer1 {
+    color:orange;
+    background-color:white;
+    font-size: 35px;
+    position:absolute;
+    top: 480px;
+    left: 525px
+}
+.jumpingpuggroup {
+    position:absolute;
+>>>>>>> origin/master
 }
