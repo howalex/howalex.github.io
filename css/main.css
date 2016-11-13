@@ -8,6 +8,7 @@ h1 {
 .openingparagraph{
     color:black;
     background-color:white;
+    color:black;
     font-size: 20px;
 }
 ul {
@@ -38,7 +39,11 @@ a:hover:not(.active) {
 background-color:rebeccapurple;
 }
 html {
+<<<<<<< HEAD
     background: #505D6E url("http://wallpapercave.com/wp/5TAw6y4.gif") no-repeat center center fixed;
+=======
+    background: #505D6E url("http://www.easyfreepatterns.com/patterns/7/pink-stripes-wallpaper-desktop-background-do-it-7400.jpg") no-repeat center center fixed;
+>>>>>>> origin/master
     min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -53,6 +58,7 @@ body {
 table {
     background: transparent;
 }
+<<<<<<< HEAD
 .openingparagraph {
     top: 200px;
     font-size: 24px;
@@ -61,30 +67,43 @@ table {
 .jumpingpug {
     position:absolute;
     top:295px;
+=======
+.starwarsdog {
+    float: left;
+    position:absolute;
+    margin: 300px 10px;
+    
+}
+.jumpingpug {
+    margin: 0px 10px;
+>>>>>>> origin/master
 }
 .jumpingpugdescription {
     color:black;
     background-color:white;
-    font-size: 30px;  
+    font-size: 28px;  
     float:right;
     position:absolute;
     top:280px;
     right: 10px;
     left: 525px;
 }
+<<<<<<< HEAD
 .starwarsdog {
     position:absolute;
     left:10px;
     top:600px;
     height:410px
 }
+=======
+>>>>>>> origin/master
 .cuteometer1 {
     color:orange;
     background-color:white;
     font-size: 35px;
     position:absolute;
     top: 480px;
-    left: 525px
+    left: 525px;
 }
 .starwarsdogdescription {
     color:black;
@@ -101,6 +120,27 @@ table {
     background-color:white;
     font-size: 35px;
     position:absolute;
+<<<<<<< HEAD
     top: 740px;
     left: 525px    
+=======
+}
+.starwarsdogdescription{
+    color:black;
+    background-color:white;
+    font-size: 28px;  
+    float:right;
+    position:absolute;
+    top:580px;
+    right: 10px;
+    left: 525px;
+}
+.cuteometer2 {
+    color:green;
+    background-color:white;
+    font-size: 35px;
+    position:absolute;
+    top: 740px;
+    left: 525px;    
+>>>>>>> origin/master
 }
