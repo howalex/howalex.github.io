@@ -15,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: mediumpurple;
+    background-color: #333;
 }
 li {
     float: left;
@@ -24,7 +24,7 @@ li {
 li a {
     font-size: 20px;
     display: block;
-    color: pink;
+    color: green;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -35,7 +35,7 @@ a:hover:not(.active) {
 }
 
 .active {
-background-color:rebeccapurple;
+background-color:skyblue;
 }
 html {
     background: #505D6E url("http://wallpapercave.com/wp/5TAw6y4.gif") no-repeat center center fixed;
@@ -54,13 +54,7 @@ table {
     background: transparent;
 }
 .openingparagraph {
-    top: 200px;
-    font-size: 24px;
-    position:absolute;
-}
-.jumpingpug {
-    position:absolute;
-    top:295px;
+    font-size: 20px;
 }
 .jumpingpugdescription {
     color:black;
@@ -76,7 +70,7 @@ table {
     position:absolute;
     left:10px;
     top:600px;
-    height:410px
+    height:445px
 }
 .cuteometer1 {
     color:orange;
@@ -86,21 +80,6 @@ table {
     top: 480px;
     left: 525px
 }
-.starwarsdogdescription {
-    color:black;
-    background-color:white;
-    font-size: 30px;  
-    float:right;
+.jumpingpuggroup {
     position:absolute;
-    top:580px;
-    right: 10px;
-    left: 525px;   
-}
-.cuteometer2 {
-    color:green;
-    background-color:white;
-    font-size: 35px;
-    position:absolute;
-    top: 740px;
-    left: 525px    
 }
