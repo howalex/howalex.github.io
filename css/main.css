@@ -102,3 +102,11 @@ table {
     top: 740px;
     left: 525px;    
 }
+@media (max-width: 900px) {
+    .jumpingpugdescription {
+        font-size:15px;
+    }
+    .starwarsdogdescription {
+        font-size:15px;
+    }
+}
