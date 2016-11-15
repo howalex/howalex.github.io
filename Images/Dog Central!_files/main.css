@@ -8,7 +8,6 @@ h1 {
 .openingparagraph{
     color:black;
     background-color:white;
-    color:black;
     font-size: 20px;
 }
 ul {
@@ -16,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: mediumpurple;
+    background-color: #333;
 }
 li {
     float: left;
@@ -25,7 +24,7 @@ li {
 li a {
     font-size: 20px;
     display: block;
-    color: pink;
+    color: green;
     text-align: center;
     padding: 15px 20px;
     text-decoration: none;
@@ -36,10 +35,10 @@ a:hover:not(.active) {
 }
 
 .active {
-background-color:rebeccapurple;
+background-color:skyblue;
 }
 html {
-    background: #505D6E url("http://www.easyfreepatterns.com/patterns/7/pink-stripes-wallpaper-desktop-background-do-it-7400.jpg") no-repeat center center fixed;
+    background: #505D6E url("http://wallpapercave.com/wp/5TAw6y4.gif") no-repeat center center fixed;
     min-height: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -54,24 +53,24 @@ body {
 table {
     background: transparent;
 }
-.starwarsdog {
-    float: left;
-    position:absolute;
-    margin: 300px 10px;
-    
-}
-.jumpingpug {
-    margin: 0px 10px;
+.openingparagraph {
+    font-size: 20px;
 }
 .jumpingpugdescription {
     color:black;
     background-color:white;
-    font-size: 28px;  
+    font-size: 30px;  
     float:right;
     position:absolute;
     top:280px;
     right: 10px;
     left: 525px;
+}
+.starwarsdog {
+    position:absolute;
+    left:10px;
+    top:600px;
+    height:445px
 }
 .cuteometer1 {
     color:orange;
@@ -79,34 +78,8 @@ table {
     font-size: 35px;
     position:absolute;
     top: 480px;
-    left: 525px;
+    left: 525px
 }
 .jumpingpuggroup {
     position:absolute;
-}
-.starwarsdogdescription{
-    color:black;
-    background-color:white;
-    font-size: 28px;  
-    float:right;
-    position:absolute;
-    top:580px;
-    right: 10px;
-    left: 525px;
-}
-.cuteometer2 {
-    color:green;
-    background-color:white;
-    font-size: 35px;
-    position:absolute;
-    top: 740px;
-    left: 525px;    
-}
-@media (max-width: 900px) {
-    .jumpingpugdescription {
-        font-size:25px;
-    }
-    .starwarsdogdescription {
-        font-size:25px;
-    }
 }
